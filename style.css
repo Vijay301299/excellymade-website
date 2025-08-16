@@ -1,11 +1,82 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f7f7fa;
+  color: #222;
+}
+header.hero {
+  background: linear-gradient(120deg, #ddecef 0%, #ffffff 100%);
+  padding: 60px 20px 30px 20px;
   text-align: center;
-  padding: 50px;
-  background-color: #f0f4f8;
-  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+}
+.hero h1 {
+  font-size: 3em;
+  margin: 0 0 10px 0;
+}
+.tagline {
+  font-size: 1.3em;
+  color: #444;
+}
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 32px;
+  background: #007800;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+}
+section.features {
+  margin: 40px auto;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.07);
+  padding: 35px 28px;
+}
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+.color-options {
+  margin: 30px auto 60px auto;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  gap: 18px;
+}
+.color-card {
+  flex: 1;
+  padding: 30px 0;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.color-card.sage { background: #80a975; }
+.color-card.ebony { background: #222122; }
+.color-card.sakura { background: #ffe6ee; color: #9c2c6c; }
+footer {
+  text-align: center;
+  padding: 24px 0;
+  background: #222;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+.product-image {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+.main-img {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.07);
 }
 
-h1 {
-  color: #0078d7;
-}
